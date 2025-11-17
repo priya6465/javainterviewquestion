@@ -1,18 +1,16 @@
 package constructor;
 
 public class Test {
+	int a;
+	String s;
+	public static void main(String[] args) {
+		
+		System.out.println(new Test().a);
+		System.out.println(new Test().s);
+		
+		//System.out.println(t.a);
+		//System.out.println(t.s);
 
-	 {
-	System.out.println("instance block");   //instance block 
-	 int a=m1();  //instance variables 
+	}
+
 }
-	 int m1() {
-	 
-	System.out.println("m1() method called by variable"); 
-	  return 100; 
-	 }  
-	 public static void main(String[] args)  
-	 { 
-		 new Test(); 
-	 } 
-	} 
